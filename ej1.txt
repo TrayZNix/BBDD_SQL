@@ -1,0 +1,5 @@
+SELECT * FROM climatologia;
+SELECT DISTINCT estacion, temperatura_maxima, provincia, fecha
+FROM climatologia
+WHERE temperatura_maxima > 30
+ORDER BY provincia ASC, fecha DESC;

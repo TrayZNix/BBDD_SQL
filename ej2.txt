@@ -1,0 +1,3 @@
+SELECT * FROM climatologia
+WHERE provincia = 'Segovia'
+ORDER BY temperatura_maxima DESC;
